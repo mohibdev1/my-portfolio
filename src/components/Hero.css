@@ -1,0 +1,161 @@
+.hero {
+  min-height: 85vh;
+  padding: 50px 8%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-sizing: border-box;
+  gap: 50px;
+}
+
+.hero-content {
+  max-width: 650px;
+}
+
+.hello {
+  color: white;
+  font-size: 28px;
+  font-weight: bold;
+  margin: 0 0 10px;
+}
+
+.hero h1 {
+  text-align: left;
+  font-size: 60px;
+  margin: 0 0 10px;
+  color: white;
+}
+
+.hero h2 {
+  text-align: left;
+  font-size: 32px;
+  margin: 0 0 20px;
+  color: white;
+}
+
+.hero h2 span {
+  color: #00adb5;
+}
+
+.hero-description {
+  color: #ffffff;
+  font-size: 17px;
+  line-height: 1.7;
+  max-width: 600px;
+  margin-bottom: 25px;
+ }
+
+.social-links {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 30px;
+}
+
+.social-links a {
+  width: 42px;
+  height: 42px;
+  border: 2px solid #00adb5;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #00adb5;
+  text-decoration: none;
+  font-size: 25px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.social-links a:hover {
+  background: #00adb5;
+  color: white;
+  transform: translateY(-3px);
+}
+
+.cv-btn {
+  display: inline-block;
+  padding: 13px 30px;
+  background: #00adb5;
+  color: white;
+  text-decoration: none;
+  border-radius: 30px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.cv-btn:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 0 20px #00adb5;
+}
+
+/* Right Side */
+
+.hero-image {
+  width: 400px;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.code-circle {
+  width: 280px;
+  height: 280px;
+  border-radius: 50%;
+  border: 5px solid #00adb5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 100px;
+  font-weight: bold;
+  color: #00adb5;
+  box-shadow: 0 0 40px rgba(0, 173, 181, 0.5);
+}
+
+/* Mobile */
+
+@media (max-width: 768px) {
+  .hero {
+    min-height: auto;
+    padding: 80px 25px;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .hero-content {
+    max-width: 100%;
+  }
+
+  .hello {
+    font-size: 22px;
+  }
+
+  .hero h1 {
+    text-align: center;
+    font-size: 42px;
+  }
+
+  .hero h2 {
+    text-align: center;
+    font-size: 25px;
+  }
+
+  .hero-description {
+    font-size: 15px;
+  }
+
+  .social-links {
+    justify-content: center;
+  }
+
+  .hero-image {
+    width: 280px;
+    height: 280px;
+  }
+
+  .code-circle {
+    width: 200px;
+    height: 200px;
+    font-size: 70px;
+  }
+}
