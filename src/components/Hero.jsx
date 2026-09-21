@@ -28,7 +28,7 @@ function Hero() {
           </a>
 
           <a
-            href="https://www.linkedin.com/"
+            href="https://www.linkedin.com/feed/"
             target="_blank"
             rel="noreferrer"
           >
