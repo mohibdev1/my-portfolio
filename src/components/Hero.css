@@ -71,7 +71,29 @@
   color: white;
   transform: translateY(-3px);
 }
+.cv-buttons {
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+}
 
+.cv-btn {
+  display: inline-block;
+  padding: 13px 25px;
+  background: #00adb5;
+  color: white;
+  text-decoration: none;
+  border: 2px solid #00adb5;
+  border-radius: 30px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.cv-btn:hover {
+  background: transparent;
+  color: #00adb5;
+  box-shadow: 0 0 15px #00adb5;
+}
 .cv-btn {
   display: inline-block;
   padding: 13px 30px;

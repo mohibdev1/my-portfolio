@@ -35,9 +35,24 @@ function Hero() {
              <FaLinkedin />
           </a>
         </div>
-        <a href="/Resume.pdf" className="cv-btn" download>
-  Download CV
-</a>
+    <div className="cv-buttons">
+  <a
+    href="/Resume.pdf"
+    className="cv-btn"
+    target="_blank"
+    rel="noreferrer"
+  >
+    View CV
+  </a>
+
+  <a
+    href="/Resume.pdf"
+    className="cv-btn"
+    download
+  >
+    Download CV
+  </a>
+</div>
       </div>
 
       <div className="hero-image">
