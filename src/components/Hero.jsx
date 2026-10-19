@@ -36,7 +36,7 @@ function Hero() {
           </a>
         </div>
 
-        <a href="#contact" className="cv-btn">
+        <a href="/Resume.pdf" className="cv-btn">
           Download CV
         </a>
       </div>
