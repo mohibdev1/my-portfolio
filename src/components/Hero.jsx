@@ -36,9 +36,7 @@ function Hero() {
           </a>
         </div>
 
-        <a href="/Resume.pdf" className="cv-btn">
-          Download CV
-        </a>
+       git commit -m "Add resume download button"
       </div>
 
       <div className="hero-image">
