@@ -35,8 +35,9 @@ function Hero() {
              <FaLinkedin />
           </a>
         </div>
-
-       git commit -m "Add resume download button"
+        <a href="/Resume.pdf" className="cv-btn" download>
+  Download CV
+</a>
       </div>
 
       <div className="hero-image">
